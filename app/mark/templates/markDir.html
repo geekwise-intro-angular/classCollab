@@ -1,0 +1,33 @@
+<div ng-app="Mark">
+    <div ng-controller="MarkCtrl">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" ng-click="">Submit</button>
+                        <button class="btn btn-default" type="button" ng-click="">Get Todo</button>
+                    </span>
+                    <input type="text" class="form-control" ng-model=""/>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 item3">
+            <ul class="">
+                <li ng-repeat="">
+                    <div class="col-lg-3 myVar" ng-show="">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Edit...." ng-model="" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button" ng-click="">Save</button>
+                            </span>
+                        </div>
+                    </div>
+                    <span ng-click="" class="item">{{thing}}</span>
+                    <button class="btn btn-default item2" type="button" ng-click="">delete</button>
+                    <button class="btn btn-default item2" type="button" ng-click="">Edit</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
