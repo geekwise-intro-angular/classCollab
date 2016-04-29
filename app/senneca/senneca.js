@@ -36,4 +36,3 @@ function SennecaCtrl($scope) {
 			$scope.inputModel = input;
 		}
 });
-// 
