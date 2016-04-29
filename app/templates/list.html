@@ -1,0 +1,16 @@
+<div>
+    <button ng-click="change()">change</button>
+    <ul>
+        <li ng-show="item.show" ng-repeat="item in array | orderBy:'-age'">{{item.first}} {{item.last}} {{item.age | myFilter}}</li>
+    </ul>
+
+
+    <ul>
+        <li ng-if="item.show" ng-repeat="item in array">{{item.first}} {{item.last}}</li>
+    </ul>
+
+    <ul>
+        <li ng-if="!item.show" ng-repeat="item in array">{{item.first}} {{item.last}}</li>
+    </ul>
+</div>
+
